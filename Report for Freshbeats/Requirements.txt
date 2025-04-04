@@ -1,6 +1,0 @@
-Using Google Docs, write a concise report of key findings and recommendations for Fresh Beats. Fresh Beats is a dynamic online platform recolutionizing the music industry by providing a streaming service and serving as a catalyst for up and coming musicians. 
-Used data to find insights into success and areas of improvement in how users engage with the platform. 
-I selected the appropriate insights and visualizations focused on three key challenges. 
-Artist promotion effectiveness- evaluating the effectiveness of current artist promotion strategies, making sure they are getting maximum exposure and return on investments. Identifying factors contributing to successful campaigns. 
-User engagement and conversion- enhance user engagement, convert free users into paid subscribers and understanding what drives conversion and retention rates for profit growth. 
-Genre promotion for emerging artists- improve the platform's content recommendation system and tailoring recommendations based on user preferences and trends. 
