@@ -1,3 +1,1 @@
-This is a spreadsheet data analysis of NYC airbnb manhattan vacation rental markets. Analyzing the market to provide guidance on which property types to invest in. Using the data to make recommendations on which neighborhoods and property sizes are the most attractive for vacation rentals and how much money could these listings generate over a year period. 
-Cleaned the data to be able to analyze listings by location, property sizes and income. Created a number of pivot tables and bar graphs to show the top three neighborhoods for vacation rentals. Found the top ten listings based on popular property sizes and created the visualizations to show case these clearly. 
-I made recommendations for the specific property size and neighborhood to invest in and showed 
+
