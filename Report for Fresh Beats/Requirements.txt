@@ -1,0 +1,53 @@
+Project: Business Intelligence Analysis - Report for Fresh Beats
+
+Description:
+
+This project was undertaken as part of the TripleTen Business Intelligence Analytics Bootcamp. The objective was to analyze a given dataset to extract actionable insights, address specific business challenges outlined in the project brief, and present findings in a clear and professional report. The project focused on demonstrating proficiency in data analysis, visualization, and communication of data-driven insights.
+
+Project Requirements:
+
+1.  **Report Template Completion:**
+    * The project required the completion of a provided report template in Google Docs.
+    * This involved populating the template with relevant insights and corresponding data visualizations.
+
+2.  **Data Visualization Integration:**
+    * Appropriate visualizations (charts, graphs) were to be selected and integrated into the report for each identified insight.
+    * Visualizations were to be copied from the dataset spreadsheet and pasted into the Google Doc using the "Paste unlinked" option to maintain data integrity.
+
+3.  **Project Summary Section:**
+    * All fields within the "Project Summary" section of the report were to be accurately completed, providing a concise overview of the project.
+
+4.  **Status Summary:**
+    * A concise status summary, limited to no more than two paragraphs, was required.
+    * This summary was to highlight the key insights derived from the analysis and explicitly relate them back to the business challenges presented in the project brief.
+
+5.  **Business Need Alignment:**
+    * Insights were to be selected and presented in relation to specific business needs, as defined in the last sheet of the provided dataset.
+    * Each insight was to directly address a relevant business need.
+
+6.  **Consistent Text Styles:**
+    * Consistent text styles were to be applied throughout the report to ensure a professional and uniform presentation.
+
+7.  **Google Docs Submission:**
+    * The completed project was to be submitted as a URL to a Google Doc.
+    * The Google Doc was required to have the correct sharing settings to ensure accessibility for review.
+
+8.  **Data Analysis:**
+    * Perform data exploration, cleaning and analysis 
+    * Identify trends, patterns, and anomalies within the dataset.
+
+9.  **Actionable Insights:**
+    * The project requires the student to produce insights that are actionable, and that relate to the real world business problems presented in the project brief.
+
+Deliverables:
+
+* A completed Google Doc report containing:
+    * Project Summary
+    * Status Summary
+    * Insight visualizations
+    * Insight descriptions.
+
+Tools:
+
+* Google Sheets
+* Google Docs
