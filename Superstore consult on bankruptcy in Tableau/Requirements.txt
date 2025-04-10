@@ -1,0 +1,79 @@
+# Project Title: Superstore Profitability Analysis & Visualization using Tableau
+
+## 1. Introduction & Context
+
+**Project Source:** Data Visualization Curriculum Project
+**Scenario:** This project simulates a consulting role hired to analyze the operations of a 'Superstore'. The store is facing financial challenges, and the goal is to use data visualization to identify areas for improving profitability.
+**Objective:** Utilize Tableau Desktop or Tableau Public to connect to, analyze, and visualize the provided Superstore dataset, answering specific business questions related to profit/loss, advertising potential, and product returns.
+
+## 2. Business Problem & Objectives
+
+**Business Need:** The Superstore requires data-driven insights to reverse its financial difficulties by increasing profitability and optimizing operations.
+**Project Objectives:**
+* Identify key drivers of profit and loss across various business dimensions (product, geography, shipping, etc.).
+* Recommend specific products and subcategories for strategic focus or discontinuation based on profitability analysis.
+* Evaluate the potential return on investment for advertising in specific locations and times based on historical profit margins.
+* Analyze product return patterns to identify high-return products, customers, or operational factors contributing to returns.
+* Communicate findings clearly and effectively through a series of targeted visualizations created in Tableau.
+
+## 3. Data Source
+
+* **Dataset:** `Superstore.xls` (Microsoft Excel file).
+* **Key Tables/Sheets:** Primarily involves data from the `Orders` and `Returns` sheets within the Excel file.
+
+## 4. Key Analytical Questions & Tasks (Using Tableau)
+
+The project requires creating individual visualizations in Tableau to address the following questions, organized by theme:
+
+**Part 1: Profits & Losses Analysis**
+1.  **Dimension Analysis:** Identify and visualize the two biggest profit-generating dimension pairs (e.g., Sub-Category + Region) and the two biggest loss-making dimension pairs.
+2.  **Unprofitable Products:** Identify and visualize specific products that should potentially be discontinued due to poor financial performance (e.g., consistent losses).
+3.  **Sub-Category Strategy:** Identify and visualize 3 product sub-categories the store should focus on (high profit/potential) and 3 product sub-categories that should potentially be discontinued.
+
+**Part 2: Advertising Potential Analysis**
+1.  **Optimal Targeting:** Identify the 3 best combinations of State and Month for potential advertising campaigns based on historical average profit.
+2.  **Justification & Budgeting:** Create a visualization showing the average profit per month for these top 3 states. Based on the visualization, argue for the potential advertising spend willingness for these specific state-month combinations (using the guideline of 1/5th of average profit for this exercise).
+
+**Part 3: Returned Items Analysis**
+1.  **Data Preparation:**
+    * In Tableau's data source pane, perform a `LEFT JOIN` from the `Orders` data to the `Returns` data (joining on Order ID).
+    * Create a calculated field that converts the `Returned` status ('Yes' / null) into numerical values (1 for 'Yes', 0 for null/no).
+2.  **High Return Rate Identification:**
+    * Create a visualization to identify specific products with the highest *return rate* (calculated using the 1/0 field).
+    * Create a visualization to identify specific customers with the highest *return rate*.
+3.  **Profit vs. Returns Trade-off:** Create a visualization (e.g., scatter plot) comparing Average Profit against Average Return Rate across a chosen dimension (e.g., State, Shipping Mode, Category). Use this visual to present an argument for continuing or discontinuing business activities based on the chosen dimension's performance profile.
+
+**Part 4: Presentation & Submission**
+1.  Consolidate all individual visualizations into a single, coherent Tableau Workbook (`.twbx`).
+2.  Publish the completed workbook to your Tableau Public profile.
+3.  Create a `README.md` file that includes the direct link to the published workbook on Tableau Public.
+
+## 5. Tools & Techniques
+
+* **Primary Tool:** Tableau (Desktop or Public)
+* **Key Techniques:**
+    * Connecting to Excel data sources.
+    * Data Modeling within Tableau (Relationships / Joins - specifically `LEFT JOIN`).
+    * Creating Calculated Fields.
+    * Building various chart types appropriate for the analysis (e.g., bar charts, line charts, scatter plots, potentially maps, heat maps, crosstabs).
+    * Data aggregation, filtering, sorting.
+    * Profitability analysis, rate calculations (Return Rate).
+    * Publishing workbooks to Tableau Public.
+
+## 6. Deliverables
+
+* A Tableau Workbook (`.twbx` file) containing visualizations addressing all questions from Parts 1, 2, and 3.
+* The workbook published online via Tableau Public.
+* A `README.md` file in the project repository containing the link to the published Tableau Public workbook.
+* (For Submission) A ZIP archive containing the `README.md` and the `.twbx` file (and potentially data source if required, ensuring total size < 9MB).
+
+## 7. Assessment Criteria (Summary)
+
+* Evaluation based on the associated Data Visualization Rubric. Key areas include:
+    * Appropriateness and effectiveness of chart types selected for each analysis.
+    * Clarity, accuracy, and insightfulness of the visualizations presented.
+    * Correctness of data preparation (joins, calculated fields) and analytical calculations.
+    * Ability of the visualizations to clearly answer the specific business questions posed.
+    * Overall presentation and usability of the Tableau workbook.
+
+---
