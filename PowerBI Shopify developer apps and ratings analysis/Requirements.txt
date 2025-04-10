@@ -1,1 +1,74 @@
+# Project Title: Shopify App Market Analysis using Power BI
 
+## 1. Introduction & Context
+
+**Project Source:** Power BI Curriculum Project
+**Scenario:** This project simulates the role of an analyst hired to review the landscape of applications available on the Shopify platform.
+**Objective:** Utilize Microsoft Power BI Desktop to analyze publicly scraped data from the Shopify App Store, identify key characteristics of the app ecosystem, and explore factors potentially related to app success (e.g., reviews, developer responsiveness).
+
+## 2. Business Problem & Objectives
+
+**Business Need:** Understand the dynamics of the Shopify App marketplace to identify patterns, trends, and potential indicators of successful apps.
+**Project Objectives:**
+* Analyze the overall distribution and trends within the Shopify app landscape (e.g., app volume, review trends, rating distributions).
+* Investigate user review characteristics, including creating weighted metrics and examining the impact of developer engagement.
+* Evaluate developer performance based on aggregated review metrics and responsiveness, focusing on highly reviewed apps.
+* Demonstrate proficiency in using Power BI for data analysis, including data modeling, DAX calculations, creating diverse visualizations, and structuring reports.
+
+## 3. Data Source
+
+* **Dataset:** `shopify.xlsx` (Microsoft Excel file).
+* **Tables:** The dataset contains four key tables:
+    * `apps`: Contains details about individual Shopify apps (ID, developer, review count, rating, last modified date, etc.).
+    * `apps_categories`: A junction table linking apps to categories.
+    * `categories`: Contains information about app categories.
+    * `reviews`: Contains individual user review data (app ID, rating, helpful count, developer reply text, etc.).
+
+## 4. Key Analytical Tasks & Visualizations (Using Power BI)
+
+The project requires building a Power BI report (`.pbix` file) structured into three distinct pages. Each sub-task requires a specific visualization to be created on the corresponding page.
+
+**Part 1: App Landscape (Report Page 1)**
+* *(Uses `apps` table data)*
+* **1.1:** Create a **KPI Card** visual displaying the unique count of apps.
+* **1.2:** Create a **Line Chart** visual showing the Sum of `reviews_count` (Y-axis) by `lastmod` date (X-axis). Ensure the `lastmod` date axis is configured as continuous, not a date hierarchy.
+* **1.3:** Create a **Scatter Plot** visual with `reviews_count` on the X-axis and the Average `rating` on the Y-axis. Add a **Text Box** visual next to the scatter plot containing a brief interpretation of the observed relationship.
+
+**Part 2: Reviews (Report Page 2)**
+* *(Uses `reviews` table data)*
+* **2.1:** Create a **DAX Calculated Column** in the `reviews` table named `helpful_reviews` with the formula: `reviews[rating] * (1 + reviews[helpful_count])`. Create a **KPI Card** visual displaying the Average value of this new `helpful_reviews` column.
+* **2.2:** Create a **DAX Calculated Column** in the `reviews` table named `developer_answered` with the formula: `IF(NOT(ISBLANK(reviews[developer_reply])), 1, 0)` (or equivalent DAX yielding TRUE/FALSE or 1/0). Create a **Scatter Plot** visual comparing the Average `rating` (Y-axis) against the `developer_answered` column (X-axis).
+
+**Part 3: App Reviews (Report Page 3)**
+* **Data Modeling:** In the Power BI data model view, create a **Many-to-One relationship** connecting the `reviews` table (`app_id` column) to the `apps` table (`id` column). Ensure the direction and cardinality are set correctly.
+* **3.1:** Create a **Bar Chart** visual showing the Sum of `rating` (Y-axis) by `developer` (X-axis, from the `apps` table).
+* **3.2:** Create a **Bar Chart** visual showing the Average of the `helpful_reviews` column (created in Part 2) on the Y-axis against `developer` on the X-axis.
+* **3.3:** Create a **Bar Chart** visual showing a measure of developer responsiveness (e.g., Sum or Count of `developer_answered`) on the Y-axis against `developer` on the X-axis. Apply a **Visual-Level Filter** to this chart only, to include data where the `apps[reviews_count]` is greater than 500.
+
+## 5. Tools & Techniques
+
+* **Primary Tool:** Microsoft Power BI Desktop
+* **Key Techniques:**
+    * Connecting to Excel data sources.
+    * Data Modeling: Creating and managing table relationships (Many-to-One).
+    * DAX: Writing formulas for Calculated Columns (`IF`, `ISBLANK`, arithmetic operations).
+    * Visualization: Creating specific visuals (KPI Card, Line Chart, Scatter Plot, Bar Chart, Text Box).
+    * Report Building: Organizing visuals onto distinct report pages.
+    * Filtering: Applying visual-level filters.
+    * Data Aggregation: Using implicit or explicit measures (Count Distinct, Sum, Average).
+
+## 6. Deliverables
+
+* **Primary Working File:** A Power BI Desktop file (`.pbix`) structured with three pages ("App Landscape", "Reviews", "App Reviews") containing all the DAX calculations, the data model relationship, and all specified visualizations.
+* **Required Submission Artifacts:** Eight individual screenshot files (.png, .jpg), each clearly capturing one of the completed visualizations corresponding to tasks 1.1, 1.2, 1.3, 2.1, 2.2, 3.1, 3.2, and 3.3.
+* **Documentation:** A `README.md` file in a GitHub repository describing the project (this repository would typically also host the required screenshot files).
+
+## 7. Assessment Criteria (Summary)
+
+* Correctness of the data model relationship setup between `apps` and `reviews`.
+* Accuracy and validity of the DAX formulas used for calculated columns (`helpful_reviews`, `developer_answered`).
+* Appropriate creation and configuration of all specified Power BI visualizations (chart types, axes, aggregations).
+* Correct application of the visual-level filter in task 3.3.
+* Overall clarity, organization, and adherence to instructions within the Power BI report structure, as demonstrated by the submitted screenshots.
+
+---
