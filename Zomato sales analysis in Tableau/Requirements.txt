@@ -1,0 +1,69 @@
+# Project Title: TripleTen BI Analyst Capstone - Zomato Sales Performance Analysis
+
+## 1. Introduction & Context
+
+**Scenario:** This project simulates the onboarding process for a Junior Business Intelligence Analyst at Zomato, a multinational restaurant aggregator and food delivery company.
+**Objective:** To analyze Zomato's sales performance using provided test datasets, identify key trends, derive actionable insights, and present findings to stakeholders (represented by the Team Lead).
+**Role:** Junior BI Analyst
+
+## 2. Business Problem & Chosen Area of Analysis
+
+**Core Business Need:** Understand business performance across key areas: Customer Behavior, Restaurant Performance, and Sales Trends.
+**Selected Analysis Focus:** **Sales Analysis**
+**Goal:** Investigate the dynamics of sales and revenue over time, identify key performance indicators (KPIs), analyze changes in sales distribution, and provide data-driven recommendations to improve sales performance.
+
+## 3. Data Sources
+
+The analysis utilizes test data provided by Zomato, contained within `Zomato data.zip`.
+**Specific Tables Used for Sales Analysis:**
+* `orders.csv`: Contains transaction-level data including order details, timestamps, and amounts.
+* `restaurant.csv`: Contains information about the restaurants listed on the platform.
+* `users.csv`: Contains information about registered users/customers.
+
+*(Note: Data joining and transformation may be required based on analysis needs.)* Created left joins in correct columns to join data tables.
+
+## 4. Project Stages & Tasks
+
+This project follows a two-stage process common in BI workflows:
+
+**Stage 1: Decomposition (Planning)**
+* **Task:** Develop a detailed research plan outlining:
+    * Specific research questions related to sales performance.
+    * Hypotheses to be tested.
+    * Key metrics and KPIs to track (e.g., Total Sales, Average Order Value, Sales Growth Rate, Sales by Restaurant/Region/Time).
+    * Required data preparation and transformation steps.
+    * Preliminary ideas for dashboard visualizations.
+* **Deliverable:** Decomposition Plan Document.
+* **Approval:** Requires review and acceptance by the Team Lead.
+
+**Stage 2: Execution (Analysis, Dashboarding, Reporting)**
+* **Task:** Execute the approved research plan:
+    * Perform data cleaning, preprocessing, and exploratory data analysis (EDA).
+    * Conduct in-depth sales analysis using appropriate statistical methods and tools.
+    * Develop an interactive dashboard (using Tableau Public or Power BI) to visually represent key findings and tell a compelling story about sales performance.
+    * Synthesize findings into a comprehensive report.
+* **Deliverables:**
+    1.  Interactive Dashboard (link to Tableau Public or deployed Power BI report).
+    2.  Final Report/Presentation (e.g., PDF, DOCX, PPTX) including:
+        * Summary of Analysis.
+        * Key Findings & Insights.
+        * Actionable Conclusions & Business Recommendations.
+* **Approval:** Requires review and acceptance of the Dashboard and Report by the Team Lead.
+
+## 5. Tools & Technologies
+
+* **Data Analysis:** Python (Pandas, NumPy) and/or SQL.
+* **Data Visualization/Dashboarding:** Tableau Public *OR* Power BI.
+* **Version Control:** Git / GitHub.
+* **Communication:** Discord (for Team Lead and peer interaction).
+
+## 6. Assessment Criteria (Summary)
+
+Project completion is determined by Team Lead acceptance based on:
+* **Decomposition Plan:** Detailed, structured, relevant to Sales Analysis, and clearly outlining the intended dashboard/report content.
+* **Dashboard:** Relevant to Sales Analysis, tells a clear story, visually effective.
+* **Report:** Clearly presents findings, includes insightful conclusions, and provides actionable recommendations for the business.
+
+## 7. Timeline
+
+* **Total Duration:** 2 Weeks (as per bootcamp guidelines). Was completed ahead of deadline.
