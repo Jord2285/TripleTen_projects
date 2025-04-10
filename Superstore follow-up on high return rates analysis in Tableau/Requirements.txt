@@ -1,0 +1,83 @@
+# Project Title: Superstore Returns Analysis & Data Storytelling with Tableau
+
+## 1. Introduction & Context
+
+**Project Source:** Storytelling with Data Curriculum Project (Follow-up to Data Visualization)
+**Scenario:** This project continues the analysis of the simulated Superstore, focusing specifically on the problem of high product returns. The goal is to prepare and present an analysis for the CEO.
+**Objective:** Utilize Tableau to conduct an in-depth analysis of product returns, build an explanatory dashboard, and construct a compelling data story to communicate findings, root causes, and potential solutions regarding returned orders.
+
+## 2. Business Problem & Objectives
+
+**Business Need:** The Superstore needs to understand the primary drivers behind its high volume of returned orders and implement strategies to reduce them.
+**Project Objectives:**
+* Identify potential root causes for product returns by analyzing correlations with sales, product categories, customer behavior, geography, and time.
+* Design and build an interactive Tableau dashboard tailored for monitoring return metrics and exploring potential causes.
+* Develop a clear and persuasive data story using Tableau Story Points to present the analysis, findings, dashboard utility, and actionable recommendations to the CEO.
+* Demonstrate proficiency in advanced Tableau features, dashboard design principles, and data storytelling techniques.
+
+## 3. Data Source
+
+* **Dataset:** `Superstore.xls` (Microsoft Excel file).
+* **Key Tables/Sheets:** Requires data from both `Orders` and `Returns` sheets, joined together.
+
+## 4. Key Analytical Tasks & Deliverables (Using Tableau & Other Tools)
+
+The project involves distinct phases of analysis, design, implementation, and presentation, each with specific deliverables:
+
+**Part 1: What is Causing Returns? (Worksheet Development)**
+1.  **Data Preparation (in Tableau):**
+    * Ensure the `Returns` data is `LEFT JOIN`ed onto the `Orders` data (based on Order ID).
+    * Create a calculated field (`[Returned (1/0)]` or similar) converting the `Returned` status ('Yes'/null) into numeric values (1 for 'Yes', 0 for null/no). Use this for calculating return rates (AVG) and total returns (SUM/COUNT).
+2.  **Required Visualizations (Create >=1 worksheet for each in the `.twbx`):**
+    * Scatterplot: Total Sales vs. Total Returns, aggregated by Product Subcategory.
+    * Bar Chart: Average Return Rate by Product Category.
+    * Bar Chart/Table: Average Return Rate by Customer (Filter applied to exclude customers with only 1 order).
+    * Map: Average Return Rate by a chosen geographic dimension (e.g., State, City).
+    * Time Series Chart: Average Return Rate by a chosen time dimension (e.g., Month, Week).
+    * Composite Charts (x2): Two distinct chart types showing Average Return Rate across a combination of multiple factors (e.g., Time + Category, Geography + Product).
+
+**Part 2: Building a Dashboard for Monitoring Returns**
+1.  **Design Phase:**
+    * **Deliverable:** Image files (scans/photos) of at least three distinct low-fidelity pen-and-paper sketches of the returns monitoring dashboard.
+2.  **Template Implementation:**
+    * **Deliverable:** A screenshot file showing the dashboard layout implemented in Tableau using empty containers, matching the chosen sketch.
+3.  **Dashboard Finalization:**
+    * **Deliverable:** The fully functional and formatted interactive dashboard integrated within the final Tableau Workbook (`.twbx`), populated with relevant worksheets from Part 1 and including titles, legends, filters, etc.
+
+**Part 3: Presenting Your Analysis and Dashboard (Tableau Story Points)**
+1.  **Story Planning:**
+    * **Deliverable:** A draft version of the Tableau Story containing *only captions* outlining the narrative flow (this can be a duplicate Story tab within the `.twbx` or separate documented notes). The narrative must cover: returns analysis summary, root cause discussion, dashboard overview/usage, actions derived from insights, and conclusions/next steps.
+2.  **Story Implementation:**
+    * **Deliverable:** The completed, interactive Tableau Story integrated within the final Tableau Workbook (`.twbx`). This should utilize worksheets and the dashboard created earlier, potentially supplemented by new visualizations created specifically for the story.
+3.  **Presentation Delivery:**
+    * **Deliverable:** A 3-to-5 minute presentation file demonstrating the Tableau Story. This should be either:
+        * A screen recording video file (e.g., .mp4, .mov).
+        * A presentation document exported as PDF.
+
+## 5. Tools & Techniques
+
+* **Primary Analysis & Visualization Tool:** Tableau (Desktop or Public)
+* **Design Tool:** Pen/Paper for sketching.
+* **Presentation Tools (Choose one):** Screen Recording Software (QuickTime, Windows Game Bar, etc.) OR PDF creation software.
+* **Key Tableau Techniques:** Data Modeling (Joins), Calculated Fields, Advanced Chart Types (Scatter Plots, Maps, Composite Charts), Dashboard Design Principles (Layout Containers, Interactivity - Filters/Actions), Tableau Story Points construction, Data Storytelling.
+
+## 6. Final Submission Requirements
+
+A single ZIP archive (`< 9MB`) must be submitted, containing:
+1.  `README.md` file: Includes a direct link to the published Tableau Public workbook.
+2.  Final Tableau Workbook (`.twbx`): Contains all worksheets, the final dashboard, the caption-only story draft, and the completed interactive story.
+3.  Dashboard Sketches: Image files (.jpg, .png, .pdf) of the hand-drawn mock-ups.
+4.  Dashboard Template Screenshot: Image file (.png, .jpg) of the empty container layout in Tableau.
+5.  Presentation File: The screen recording video file OR the exported PDF presentation.
+
+## 7. Assessment Criteria (Summary)
+
+* Evaluation based on the associated Storytelling with Data Rubric. Key areas include:
+    * Depth and accuracy of the returns analysis.
+    * Effectiveness and clarity of individual visualizations.
+    * Design quality and usability of the interactive dashboard.
+    * Logical flow, clarity, and persuasiveness of the Tableau Story.
+    * Technical proficiency demonstrated in Tableau (calculations, charts, dashboard, story points).
+    * Quality and completeness of all required deliverable files.
+
+---
