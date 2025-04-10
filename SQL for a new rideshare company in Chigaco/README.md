@@ -53,7 +53,7 @@ The project was executed entirely through SQL querying against a relational data
 
 ## Project Deliverables
 
-* **SQL Scripts:** [**Link to Folder containing .sql files, e.g., ./sql_scripts/**]
+* **SQL Scripts:** https://1drv.ms/b/c/e19f4da4f3d3fb01/EQA0_Saqg0lGr4brnlZjYYQB2AKH7Q893J7Z20xU2n1GUA?e=3ZJ3rt
     *(Contains well-commented SQL queries for all EDA and hypothesis preparation tasks)*
 * **Project Requirements:** https://github.com/Jord2285/TripleTen_projects/blob/main/SQL%20for%20a%20new%20rideshare%20company%20in%20Chigaco/Requirements.txt *(Details the original project specifications)*
     *(Note: Query results/output can be inferred by running the scripts against a compatible schema, or may be included as comments/documentation within the scripts if applicable)*
