@@ -13,8 +13,8 @@ Projects I worked on while attending the Business Intelligence Analysis TripleTe
 | 7 | [SQL for rideshares in Chigaco](https://github.com/Jord2285/TripleTen_projects/tree/main/SQL%20for%20rideshares) | platform used, skills, analysis, 1-2 sentences |
 |8 | [Zomato sales analysis in Tableau](https://github.com/Jord2285/TripleTen_projects/tree/main/Zomato-%20Sales%20Analysis%20in%20Tableau) | platform used, skills, analysis, 1-2 sentences |
 |9| [Superstore Storytelling with Data](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
-| 10 | [Superstore Storytelling with Data](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
-| 10 | [Superstore Storytelling with Data](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
-| 10 | [Superstore Storytelling with Data](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
-| 10 | [Superstore Storytelling with Data](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
-| 10 | [Superstore Storytelling with Data](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
+| 10 | [project name](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
+| 11 | [project name](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
+| 12 | [project name](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
+| 13 | [Project Name](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
+| 14 | [Project Name](https://github.com/Jord2285/TripleTen_projects/edit/main/README.md) | platform used, skills, analysis, 1-2 sentences |
