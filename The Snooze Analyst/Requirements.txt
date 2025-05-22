@@ -1,0 +1,79 @@
+# Code Pudding 2025: Unveiling Insights from Sleep Health and Lifestyle Data
+
+## Team Members
+* Jess Cunningham
+* Sakinah Jaisingh
+* Bereket Wendimagegn
+
+## Project Overview/Goal
+Our project aimed to analyze the "Sleep Health and Lifestyle Dataset" to identify key lifestyle factors influencing sleep quality and duration. We sought to answer specific questions about the relationships between various health metrics and sleep patterns, ultimately deriving actionable insights.
+
+## Dataset Description
+* **Name:** Sleep Health and Lifestyle Dataset
+* **Source:** Kaggle
+* **Link:** [Insert Direct Link to Dataset on Kaggle or other source, e.g., `https://www.kaggle.com/datasets/saadhusain/sleep-health-and-lifestyle-dataset`](https://www.kaggle.com/datasets/saadhusain/sleep-health-and-lifestyle-dataset)
+* **Description:** This dataset contains comprehensive information on individuals' sleep habits, daily activities, and health indicators. Features include sleep duration, quality, physical activity levels, stress levels, BMI, blood pressure, heart rate, daily steps, and demographic information such as age and occupation.
+
+## Key Questions Addressed
+* What is the relationship between physical activity levels and sleep quality/duration?
+* How do stress levels impact sleep patterns?
+* Are there observable differences in sleep health across various occupations?
+* Can we identify any correlations between BMI/blood pressure and sleep quality?
+
+## Data Cleaning & Preparation
+The initial dataset underwent a series of cleaning and preparation steps to ensure data quality and readiness for analysis. This involved:
+* Handling missing values (e.g., [briefly describe your method, e.g., imputation, removal]).
+* Standardizing text entries (e.g., for 'Occupation').
+* Converting data types to appropriate numerical or categorical formats.
+* [Add any other specific cleaning steps you performed, e.g., outlier handling, creating new features].
+
+## Exploratory Data Analysis (EDA)
+Our EDA process began with initial explorations in Tableau to gain a high-level understanding of the dataset's distributions and potential relationships. This included:
+* Visualizing the distribution of key sleep metrics (duration, quality).
+* Exploring correlations between numerical variables like age, physical activity, and sleep duration.
+* Analyzing categorical variables such as occupation and gender against sleep quality.
+This initial visual exploration guided our more in-depth analytical approaches.
+
+## Analysis & Methodology
+Our analysis primarily leveraged **Tableau** for powerful interactive visualizations and dashboard creation, which allowed for dynamic exploration of the data. The insights derived from Tableau formed the basis of our key findings.
+
+Beyond the visualizations, we further elaborated on our findings by:
+* Conducting [mention any specific statistical analysis if you did it, e.g., correlation analysis, basic hypothesis testing].
+* Analyzing aggregated data to identify trends and patterns across different lifestyle categories.
+
+## Key Findings & Insights
+Our analysis revealed several significant insights:
+* [**Finding 1:** E.g., "A strong positive correlation was observed between consistent physical activity and higher self-reported sleep quality."]
+* [**Finding 2:** E.g., "Individuals reporting higher stress levels tended to have shorter average sleep durations and lower sleep quality scores."]
+* [**Finding 3:** E.g., "Certain occupations (e.g., Sales Representative, Accountant) showed statistically lower average sleep durations compared to others."]
+* [**Finding 4:** E.g., "While not a direct causal link, a tendency for individuals with higher BMI to report slightly lower sleep quality was noted."]
+
+## Recommendations
+Based on our findings, we offer the following recommendations:
+* **Promote Physical Activity:** Encourage regular, moderate physical activity as a means to potentially improve sleep quality.
+* **Stress Management:** Emphasize the importance of stress reduction techniques for improving sleep duration and overall health.
+* **Work-Life Balance Awareness:** For high-stress occupations, promoting strategies for work-life balance and adequate rest periods could be beneficial.
+
+## Visualizations
+The core of our visual storytelling was developed in **Tableau**. Our interactive dashboards and charts provided a dynamic view of the data. Key visualizations included:
+* Interactive dashboards showcasing the relationships between lifestyle factors and sleep metrics.
+* Bar charts comparing average sleep duration/quality across different occupations.
+* Scatter plots illustrating correlations (e.g., Physical Activity vs. Sleep Quality).
+
+## Tools Used
+* **Tableau:** Primary tool for data visualization, exploration, and dashboard creation.
+* [**Microsoft Word/Google Docs:**] For compiling our key findings and presentation narrative.
+* [**Zoom/YouTube:**] For live and recorded video presentation delivery.
+* [**Optional: Python (Pandas, NumPy, Matplotlib, Seaborn):** If you used Python for any part of data cleaning, specific statistical analysis, or additional visualizations.]
+
+## How to Explore
+1.  **View the Tableau Dashboard:** The primary way to interact with our analysis is through the Tableau Public dashboard. Click on the "Dashboard Link" provided below.
+2.  **Review the Presentation:** For a structured overview of our findings and methodology, please access our presentation slides via the "Presentation Link."
+3.  **Watch the Video Presentation:** For a comprehensive walkthrough and discussion of our project, including live demonstrations of the Tableau dashboard, please watch our video presentation.
+
+## Presentation & Video Links
+* **Presentation Slides:** https://docs.google.com/document/d/194cHuFu7ObTbtvu1juhyyGgLlgkpbbTojkx5lb8sNtQ/edit?usp=sharing
+* **Video Presentation (Zoom/YouTube Event):** https://www.youtube.com/live/qeavLBLIqFA?si=Ne57FahwZRt1WLXt and https://drive.google.com/file/d/1QErjdPFU_MNk6MAmMLLxwjsPiZb_X0dn/view?usp=sharing
+* **Tableau Dashboard:** https://public.tableau.com/views/TheSnoozeAnalysts-SleepandHealthImpactsApril2025CodePuddingByBereketSakinahandJess/TheSnoozeAnalystsPresentation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+---
