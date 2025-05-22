@@ -118,3 +118,10 @@ You can explore my project's key deliverables through the following links and fi
 
 ## Repository Structure
 
+---
+
+*A brief note on data joining: During the project, I encountered some challenges with Tableau's updated data joining functionality. The analysis proceeded with the most effective data integration possible under those circumstances. If a specific joined CSV was exported and used for the dashboard, it would be included in the `data/` folder.*
+
+---
+
+**Thank you for reviewing my Zomato Sales Analysis project!**
