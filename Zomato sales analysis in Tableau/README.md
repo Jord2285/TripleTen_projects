@@ -3,48 +3,118 @@
 ---
 
 **Project Status:** Completed 04/2025
-**Last Updated:** April 9, 2025 
+**Last Updated:** May 22, 2025 
+
+---
 
 ## Project Overview
 
-This repository contains my capstone project for the TripleTen Business Intelligence Analyst program. It showcases an end-to-end BI analysis process, simulating a real-world task for a Junior BI Analyst at Zomato, a global restaurant aggregator and food delivery service.
+Welcome to my final project for the Zomato junior analyst onboarding! This project dives deep into **Sales Analysis** using Zomato's test datasets. My goal was to explore key sales metrics, identify trends over time, understand customer purchasing behaviors from a sales perspective, and ultimately, provide actionable insights and recommendations to help Zomato boost its business.
 
-The primary goal was to analyze historical sales data to identify key performance trends, uncover actionable insights, and develop data-driven recommendations aimed at enhancing Zomato's sales strategies and overall business performance.
+## My Role
 
-## Analysis Focus: Sales Performance
+For this project, I acted as a **Junior Analyst** at Zomato, tackling a real-world business problem as part of my onboarding.
 
-This analysis concentrated specifically on **Sales Performance**, addressing questions such as:
-* What are the key sales trends over time?
-* Which Key Performance Indicators (KPIs) best measure sales success (e.g., Total Revenue, Average Order Value, Growth Rates)?
-* How do sales vary across different dimensions (e.g., time periods, restaurant attributes)?
-* What factors correlate with higher sales performance?
+## The Business Problem
 
-## Key Objectives
+Zomato, a global food delivery and restaurant aggregator, provided a set of test datasets for business performance analysis. As my first assignment, I chose to focus on **Sales Analysis** among the three available areas (Customer, Restaurant, Sales). The objective was to research this area thoroughly and present my findings through a dashboard and a comprehensive report.
 
-* Perform data cleaning, transformation, and validation on provided datasets (`orders`, `restaurant`, `users`).
-* Conduct Exploratory Data Analysis (EDA) to understand underlying patterns.
-* Develop relevant KPIs and metrics to track sales performance.
-* Create insightful visualizations and an interactive dashboard to communicate findings effectively.
-* Derive actionable conclusions and provide strategic recommendations based on the analysis.
+---
 
-## Tools & Technologies Utilized
+## My Research Area: Sales Analysis
 
-* **Data Manipulation & Analysis:** SQL, Python (Pandas, NumPy)
-* **Data Visualization & Dashboarding:** [Choose One: Tableau Public OR Power BI]
-* **Version Control:** Git / GitHub
-* **Project Management & Communication:** Agile principles (decomposition planning), simulated stakeholder communication (Discord).
+My investigation centered on the following core questions:
 
-## Methodology
+* How have sales and revenue evolved over time?
+* Are there changes in sales distribution (e.g., quarterly, seasonally)?
+* Which customer segments are driving the most sales, and how can Zomato expand its reach to other customer bases?
+* Are there patterns of profit losses or inconsistencies between costs and sales?
+* Do certain locations or areas perform better in terms of overall sales?
 
-1.  **Decomposition & Planning:** Defined clear research questions, hypotheses, KPIs, and an analysis plan.
-2.  **Data Preparation:** Cleaned, merged, and transformed data from multiple sources (`orders`, `restaurant`, `users`) using Tableau table joins and relationships.
-3.  **Exploratory & In-depth Analysis:** Investigated sales trends, calculated KPIs, and segmented data to uncover patterns.
-4.  **Dashboard Development:** Built an interactive dashboard in Tableau Public visualizing key sales insights and trends.
-5.  **Reporting & Recommendations:** Compiled findings and formulated actionable business recommendations in a final report.
+---
 
-## Project Deliverables
+## Data Utilized
 
-* **Interactive Sales Dashboard:** (https://public.tableau.com/views/SalesAnalysisonZomato/SalesbyYear?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-* **Final Analysis Report & Recommendations:** https://1drv.ms/u/c/e19f4da4f3d3fb01/ERY8bvwavZ9Lv1Es1YDPTe0BNllbJkqEiY3hJorux1f-FQ?e=cmXROH
+For this analysis, I leveraged the following tables from the provided `Zomato data.zip` archive:
+
+* `restaurant`
+* `users`
+* `orders`
+
+*(While `food` and `menu` tables were part of the archive, they were not the primary focus for this specific sales analysis, aligning with my decomposition plan.)*
+
+---
+
+## Dashboard & Visualizations
+
+My dashboard was designed to tell a clear story about Zomato's sales performance, incorporating time-based trends, geographical insights, customer demographics, and financial indicators.
+
+### Key Visualizations:
+
+* **Sales Over Time (Line Chart):** Illustrating annual and quarterly revenue trends.
+* **Geographical Sales Performance (Map):** Highlighting sales performance across different locations.
+* **Profit & Loss Analysis (Graph):** Examining financial trends related to sales.
+* **Customer Spending by Demographics (Bar Chart):** Identifying which customer segments contribute most to sales.
+
+The overall aim was to visualize trends within the sales data that could inform future advertising campaigns, sales boosts, targeted demographic outreach, and understanding seasonal purchasing behaviors.
+
+---
+
+## Key Findings & Recommendations (from My Project Report)
+
+### 1. Sales Dynamics Over Time
+
+* **Insight:** Zomato experienced a significant sales increase in 2017, leading to record sales in 2018. However, a decline started in Q2 of 2019. Q1 and Q4 consistently show higher sales compared to Q2 and Q3.
+* **Recommendation:** Implement targeted ads and promotions during Q2 and Q3 to stimulate customer engagement. Investigate the factors contributing to stronger sales in Q1 and Q4 to replicate successful strategies throughout the year.
+
+### 2. Customer Engagement & Ratings
+
+* **Insight:** Most customer ratings fall between 3 and 4.5 out of 5, indicating a solid base for customer satisfaction. Interestingly, higher sales volumes or larger purchases correlate with a greater likelihood of customers leaving a review.
+* **Recommendation:** Launch a focused review campaign to encourage more customer feedback. Consider developing incentives for reviews or special offers for repeat customers to build loyalty.
+
+### 3. Cost Inconsistencies vs. Sales
+
+* **Insight:** Costs are inconsistent across different restaurants, and higher spending doesn't always translate to higher sales.
+* **Recommendation:** A deeper dive into the relationship between operational spending and revenue generated by individual restaurants is needed to identify areas for optimizing costs or strategic investment.
+
+### 4. Customer Demographics & Spending Patterns
+
+* **Insight:** Spending between men and women is relatively similar. However, "Single, no income" individuals are by far the top customers, representing a significant portion of overall sales.
+* **Recommendation:** Further analyze the motivations and needs of the "Single, no income" customer base. Develop strategies to attract and grow customer segments in other demographics, such as married individuals and various income levels, to significantly expand Zomato's sales.
+
+---
+
+## Conclusion
+
+Zomato has substantial opportunities for growth, not only in overall sales but also in improving customer ratings. By implementing targeted incentives for reviews, strategic promotions for repeat customers, and by effectively engaging married individuals and income earners across all categories, Zomato can achieve exponential sales growth across its entire restaurant network.
+
+---
+
+## Tools & Platforms Used
+
+* **Tableau Public:** My primary tool for creating interactive data visualizations and the final dashboard.
+* **Microsoft Word / Google Docs:** Used for compiling the detailed project report and findings.
+* **Discord:** Essential for communication with my team leader and peers.
+* **Zomato Test Data (CSV files):** The raw datasets provided for analysis.
+
+---
+
+## How to Access My Project
+
+You can explore my project's key deliverables through the following links and files:
+
+1.  ### **Tableau Public Dashboard**
+    * **Link:** [https://public.tableau.com/views/SalesAnalysisonZomato/SalesbyYear?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/SalesAnalysisonZomato/SalesbyYear?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+2.  ### **Project Report**
+    * **File:** [`report/Zomato_Sales_Analysis_Project_Report.pdf`](./report/Zomato_Sales_Analysis_Project_Report.pdf)
+        *(This file contains the detailed findings, conclusions, and recommendations.)*
+
+3.  ### **Decomposition Plan**
+    * **File:** [`decomposition/Zomato_Sales_Analysis_Decomposition_Plan.pdf`](./decomposition/Zomato_Sales_Analysis_Decomposition_Plan.pdf)
+        *(This PDF outlines my initial research plan and dashboard ideas.)*
+
+---
 
 ## Repository Structure
+
